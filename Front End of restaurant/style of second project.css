@@ -1,0 +1,235 @@
+body
+{
+	padding: 0;
+	margin: 0;
+}
+.menu_bar
+{
+	background-color: #DCDCDC;
+	text-align: right;
+	padding: 0;
+}
+.menu_bar ul
+{
+	margin: 5px 0 ;
+	list-style: none;
+	display: inline-flex;
+	position: relative;
+}
+.menu_bar ul li 
+{
+	margin: 0 0px;
+	padding: 5px 5px;
+	width: 150px; 
+	z-index: 30;
+	text-align: center;	 	 	 	      
+}
+.menu_bar ul li a
+{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+}
+.menu_bar ul li:hover 
+{
+    border-radius: 10px;
+    background-color: #A9A9A9;
+}
+.big
+{
+	/*position: relative;*/
+	margin: 0 auto;
+}
+.big img
+{
+	/*vertical-align: middle;*/
+	width: 100%;
+	height: 650px;
+}
+.big .small
+{
+	/*position: absolute;*/
+	width: 100%;
+	/*text-align: center;
+	bottom: 250px;*/
+	/*color: white;
+	font-weight: bold;*/
+}
+.x
+{
+	font-size: 40px;
+	font-style: italic;
+	color: black;
+	background-color: gray;
+}
+.a
+{
+	font-size: 40px;
+	font-style: italic;
+}
+#item2,#item3,#item4
+{
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	margin: 80px auto;
+
+
+	clear: both;
+}
+.lb
+{
+	display: block;
+	font-size: 1rem;
+	font-style: italic;
+}
+.c
+{
+	font-size: 22px;
+	text-align: center;
+}
+.d
+{
+	font-size: 22px;
+	background-color: #dcd6d6;
+	margin:auto;
+	width: 80%;
+	text-align: center;
+	margin-bottom: 80px;
+	padding: 8px;
+	clear: both;
+}
+.about img
+{
+	width: 100%;
+	height: 550px;
+}
+.f 
+{
+	font-size: 20px;
+	font-weight: bold;
+    margin-left: 8px;
+}
+.e
+{
+	font-size: 19px;
+	margin-left: 8px;
+}
+.g
+{
+	font-size: 22px;
+	font-style: italic;
+	margin-left: 8px;
+	margin-right: 1290px;
+}
+.photos1 .x 
+{
+	position: relative;
+	float: left;
+	width:calc(92%/4);
+	margin: 1%;
+}
+.photos1 .x span
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+}
+.photos1 .x img
+{
+	width:100%;
+	height: 220px;
+}
+.photos2 .y 
+{
+	position: relative;
+	float: left;
+	width:calc(92%/4);
+	margin: 1%;
+}
+.photos2 .y span
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+}
+.photos2 .y img
+{
+	width:100%;
+	height: 250px;
+}
+.h
+{
+	font-size: 22px;
+	font-style: italic;
+	margin-left: 8px;
+	margin-right: 1290px;
+}
+.photos3 .z
+{
+	position: relative;
+	float: left;
+	width:calc(92%/4);
+	margin: 1%;
+}
+.photos3 .z span
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+}
+.photos3 .z img
+{
+	width:100%;
+	height: 250px;
+}
+.inp
+{
+	width: 500px;
+	height: 40px;
+	margin-left: 20px;
+}
+.bu
+{
+	color: white;
+	width: 200px;
+	height: 50px;
+    margin-left: 20px;
+    background-color:black;
+    cursor: pointer;
+    font-size: 18px;
+}
+.foo
+{
+	color: white;
+	width: 100%;
+	height: 70px;
+	background-color: gray;
+	clear: both;
+}
+.fo
+{
+	color: black;
+	padding: 20px;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+}
+.lin
+{
+	padding: 5px;
+}
